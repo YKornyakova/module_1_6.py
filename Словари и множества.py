@@ -9,7 +9,7 @@ del my_dict["Petr"]
 print(my_dict)
 my_set = {23.5, "avto", 5, 23.5, "avto", 5, 4}
 print(my_set)
-my_set.update(["moto", 67])
+my_set.update(["moto", (67, 2, 6)])
 print(my_set)
 my_set.remove(5)
 print(my_set)
